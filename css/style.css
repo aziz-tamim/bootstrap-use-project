@@ -1,0 +1,471 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Rubik:wght@400;500;700;900&display=swap');
+
+/* defaulth css */
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #404044;
+}
+p {
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button:focus {
+    outline: 0;
+    outline: 0;
+}
+.btn {
+    border: 1px solid #505cfd;
+    padding: 15px 40px;
+    color: #595959;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.btn:hover  {
+    border: 1px solid #505cfd;
+    color: #595959;
+}
+/* header area starts  */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.header-area {
+    padding: 0 40px;
+}
+.hire-btn > a {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.hire-btn > a {
+    border: 1px solid #505cfd;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 55px;
+}
+.main-menu li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-menu ul li a {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 44px 0;
+    line-height: 1;
+}
+
+/* slider-area stars */
+.single-slider {
+    height: 100vh;
+}
+.slider-icon {
+    margin-bottom: 20px;
+}
+.slider-icon a {
+    color: #505cfd;
+    font-size: 18px;
+    margin: 0 15px;
+}
+.slider-inner h2 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 15px;
+}
+.slider-inner p {
+    color: #343434;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+/* single features section */
+.features-area {
+    position: relative;
+    z-index: 999px;
+    margin-top: -80px;
+}
+.single-features {
+    padding: 60px 15px;
+}
+.single-features i {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+.single-features h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.single-features p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.about-text h3 {
+    font-size: 32px;
+    line-height: 44px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.about-text h3::before {
+    background: #505cfd;
+    height: 2px;
+    width: 50px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+}
+.about-text p {
+    margin-bottom: 50px;
+}
+
+/* area title */
+.area-title h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.area-title p {
+    margin-bottom: 0px;
+}
+
+/* subscribe */
+.subscribe-form {}
+.subscribe-form form {}
+.subscribe-form input {
+    width: 25%;
+    border: 0;
+    background: #fff;
+    height: 45px;
+    padding: 0 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.subscribe-form button {
+    background: #505cfd;
+    color: #fff;
+    border: 0;
+    height: 45px;
+    padding: 0 40px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* services area */
+.service-wrapper {
+    border: 1px solid #ddd;
+    padding: 50px 30px;
+    transition: .3s;
+}
+.service-wrapper:hover {
+    background: #222; 
+    border-color: #222;
+}
+.service-area i {
+    font-size: 48px;
+    color: #505cfd;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.service-area h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.service-wrapper:hover h3 {color :#fff;}
+.service-wrapper:hover .btn {color: #fff;}
+.service-wrapper:hover p {color: #777;}
+.service-area p {
+    margin-bottom: 60px;
+}
+
+
+/* pricing section */
+
+.pricing-item {
+    width: 28%;
+}
+.pricing-area {
+    background-color: #e7e8fe;
+}
+.pricing-wrapper {
+    border: 1px solid #cfd1fc;
+    transition: .3s;
+}
+.pricing-wrapper:hover {
+    box-shadow: 0px 15px 30px 0px rgba(80, 92, 253, 0.1);
+    background-color: #fff;
+}
+.pricing-wrapper h3{
+    font-size: 22px;
+    padding: 40px 0;
+    margin: 0;
+    border-bottom: 1px solid #cfd1fc;
+}
+.pricing-wrapper span{
+    font-size: 40px;
+    font-weight: 600;
+    color: #505cfd;
+    margin-top: 21px;
+    display: inline-block;
+    line-height: 1;
+}
+.pricing-wrapper span span {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: -11px;
+
+}
+.pricing-wrapper ul{
+    margin: 40px 0;
+}
+.pricing-wrapper ul li{
+    line-height: 36px;
+    color: #595959;
+}
+
+
+/* counter */
+.counter-wrapper {
+
+}
+.counter-wrapper i {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+    color: #fff;
+}
+.counter-wrapper span {
+    color: #fff;
+    font-size: 32px; 
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+.counter-wrapper p {
+    margin: 0;
+    color: #fff;
+}
+
+/* team member */
+
+.team-img img {
+    width: 100%;
+}
+.team-img::before {
+    position: absolute;
+    background: #fff;
+    opacity: 0;
+    content: "";
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    transition: .3s;
+    visibility: hidden;
+}
+.team-wrapper:hover .team-img::before {
+    opacity: .5;
+    visibility: visible;
+}
+.team-wrapper {
+    position: relative;
+}
+.team-info {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.team-wrapper:hover .team-info {
+    opacity: 1;
+    visibility: visible;
+}
+.team-icon {
+    margin-top: 6px;
+}
+.team-info h3 {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.team-icon a {
+    color: #444;
+    margin: 0 5px;
+}
+
+/* blog area  */
+.blog-content {
+    margin-top: 15px;
+}
+.blog-content h3 a {
+    font-size: 22px;
+    color: #444;
+    text-decoration: none;
+}
+.blog-content p {
+    margin-bottom: 30px;
+}
+.blog-content {}
+.blog-meta {
+    margin-bottom: 14px;
+}
+.meta-line {
+    background: #444;
+    height: 2px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+}
+.testimonial-item {
+    background: rgba(255, 255, 255, .9);
+    padding: 60px 123px;
+}
+.testimonial-name {
+ margin-bottom: 15px;
+}
+.testimonial-name h4 {
+    color: #505cfd;
+    font-size: 22px;
+}
+
+.testimonial-active .slick-dots {
+    margin-top: -40px;
+    z-index: 9;
+    position: relative;
+}
+.testimonial-active .slick-dots li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.testimonial-active .slick-dots li button {
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 0;
+    border: 2px solid #444;
+}
+.testimonial-active .slick-dots li.slick-active  button {
+    background: #444;
+}
+.blog-thumb img {
+    width: 100%;
+}
+
+/* footer section */
+.footer-widget h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.contact-list {
+    margin-bottom: 20px;
+}
+.contact-list li {
+    line-height: 36px;
+    color: #777777;
+}
+
+.footer-icon a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer-link {}
+.footer-link li {
+    width: 50%;
+    float: left;
+}
+ul.footer-link li a {
+    color: #777777;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.footer-blog li{
+    margin-bottom: 20px;
+}
+.footer-blog li:last-child{
+    margin-bottom: 0;
+}
+.news-title h4 a{
+    color: #777777;
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.news-title span {
+    color: #777;
+}
+.news-thumb {
+    float: left;
+}
+.news-title {
+    overflow: hidden;
+    padding-left: 15px;
+}
+.news-title h4 {
+    line-height: 1;
+    margin: 0;
+}
+
+.copyright-text p {
+    color: #777;
+    margin: 0;
+}
+.footer-menu ul li a {
+    color: #777;
+    text-decoration: none;
+}
+.footer-menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.copyright-border {
+    border-top: 1px solid #777; 
+    padding: 30px 0;
+}
+
+
+.about-img img {
+    width: 100%;
+}
+
+

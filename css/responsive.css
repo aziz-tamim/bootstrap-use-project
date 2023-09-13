@@ -1,0 +1,109 @@
+
+/* Xl device (1200px) */
+@media (min-width: 1200px) and (max-width:1500px) {
+
+}
+
+
+/* LG Device :992px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin-left: 20px;
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner h2 {
+        font-size: 44px;
+    }
+   
+}
+
+
+/* MD Device : 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 20px 40px;
+        padding-bottom: 10px;
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner h2{
+        font-size: 35px;
+    }
+    .slider-inner p{
+        margin-bottom: 25px;
+    }
+    .single-features {
+        border-bottom: 1px solid #ddd;
+    }
+    .theme-bg .col-xl-4:last-child .single-features {
+        border-bottom: 0;
+    }
+    .about-img {
+        margin-top: 40px;
+    }
+    .subscribe-form input {
+        width: 23%;
+    }
+    .single-slider {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Extra Small Device. */
+@media (max-width: 767px) {
+    .header-area {
+        padding: 20px 40px;
+        padding-bottom: 10px;
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .single-features {
+        border-bottom: 1px solid #ddd;
+    }
+    .theme-bg .col-xl-4:last-child .single-features {
+        border-bottom: 0;
+    }
+    .slider-inner h2 {
+        font-size: 30px;
+    }
+    .slider-inner p {
+        margin-bottom: 25px;
+    }
+    .about-img {
+        margin-top: 40px;
+    }
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .pricing-item {
+        width: 100%;
+    }
+    .testimonial-item {
+        padding: 60px 30px;
+    }
+    .testimonial-area {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .copyright-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+   
+}
+
+/* SM small Device : 550px */
+@media only screen and (min-width: 576px) {
+
+}
